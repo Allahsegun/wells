@@ -1,0 +1,165 @@
+ *{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+ }
+ /* body{
+
+ } */
+ 
+ .header{
+    background-color: rgb(207, 60, 46);
+    padding:20px 10px;
+    position: sticky;
+    top:0px;
+    z-index:20;
+ }
+
+ .logo{
+    color:rgb(241, 226, 68); 
+
+}
+
+.header-img{
+    width:100%;
+    top:-300px;
+    z-index: 15;
+}
+.header-img>img{
+    width:100%
+}
+.page-content{
+    z-index: 19;
+}
+.overview{
+    width:100%;
+    padding:30px 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.overview-img-cont{
+    display: flex;
+    justify-content: space-around;
+}
+.overview>div>img{
+    width:150px;
+    text-align: center;
+}
+.overview>h3{
+    margin-top:30px;
+    text-align: center;
+    color: rgba(207, 60, 46,0.9);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.greet{
+    color: rgba(207, 60, 46,0.9);
+    font-weight:700
+}
+
+.c-bal>h3>span{
+    display: block;
+    text-align: right;
+    font-size: 12px;
+    color:rgb(18, 116, 20)
+}
+
+.c-bal>h4{
+    text-align: left;
+
+}
+
+.c-bal>h3{
+    margin-top:15px;
+    text-align: right;
+}
+
+.img-slider{
+    width:100%;
+    padding:30px 30px;
+}
+
+.img-slider>img{
+    width:100%;
+}
+
+.tra-hstr{
+    padding:0px 30px;
+}
+
+.tra-hstr>h2{
+    text-align: center;
+    color: rgba(207, 60, 46,0.9);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding:15px 0px;
+    border-top: 5px solid rgb(231, 228, 228);
+    border-bottom: 5px solid rgb(231, 228, 228);
+    margin-bottom: 20px;
+}
+
+.history{
+    width:100%;
+    padding:10px 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top:30px;
+}
+
+.tra-type{
+    margin-top:20px;
+    display:flex;
+    justify-content: space-between;
+}
+.payment-id{
+    margin-top:7px;
+    text-align: right;
+}
+
+.payment-time{
+    margin-top:7px;
+    text-align: right;
+}
+
+.payment-amount-credit{
+    margin-top:7px;
+    text-align: right;
+    color:rgb(8, 101, 10)
+}
+
+.payment-amount-debit{
+    margin-top:7px;
+    text-align: right;
+    color:rgba(150, 25, 13, 0.9)
+}
+
+.img{
+    width:100%;
+    padding:30px 30px;
+}
+
+.img>img{
+    width:100%;
+}
+
+.logout-btn{
+    width:100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    margin-bottom:40px;
+}
+
+.logout-btn>input{
+    background-color: rgba(177, 24, 10, 0.9);
+    color:#fff;
+    width: calc(100% - 60px);
+    border:none;
+    font-size:18px;
+    font-weight:700;
+    padding:10px 0px;
+    letter-spacing: 1px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.logout-btn>input{
+    cursor:pointer;
+}

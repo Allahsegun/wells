@@ -1,0 +1,51 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "users": [
+    {
+      "id": 1,
+      "name": "shade",
+      "age": 30,
+      "email": "shade@gmail.com"
+    },
+    {
+      "name": "kunle",
+      "age": 30,
+      "email": "kunle@gmail.com",
+      "id": 2
+    },
+    {
+      "name": "tomilola",
+      "email": "tomilola@gmail.com",
+      "age": 20,
+      "id": 3
+    },
+    {
+      "name": "sleekguy",
+      "email": "sleekguy@gmail.com",
+      "age": 20,
+      "id": 4
+    },
+    {
+      "name": "wale",
+      "age": 30,
+      "email": "wale@gmail.com",
+      "id": 5
+    }
+  ]
+}
